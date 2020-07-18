@@ -1,16 +1,14 @@
-package com.random.strings.controllers.dto;
+package com.random.strings.dtos;
 
 public class RandomDto {
 
-    private Integer lengStr;
     private Integer rowSize;
 
-    public Integer getLengStr() {
-        return lengStr;
+    public RandomDto() {
     }
 
-    public void setLengStr(Integer lengStr) {
-        this.lengStr = lengStr;
+    public RandomDto(Integer rowSize) {
+        this.rowSize = rowSize;
     }
 
     public Integer getRowSize() {

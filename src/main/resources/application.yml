@@ -1,0 +1,2 @@
+random-string:
+  path: uploads/random-string-%s.txt
